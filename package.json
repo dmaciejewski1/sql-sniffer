@@ -1,0 +1,19 @@
+{
+  "name": "sql-sniffer",
+  "description": "A watchdog for sensitive Database commands and transactions that (when given a text string) will return an array of recognized sensitive SQL phrases if present",
+  "version": "0.0.1",
+  "author": {
+    "name"  :"David Maciejewski",
+    "email" :"dmaciejewski1@gmail.com"
+  },
+  "main" : "app.js",
+  "repository" : {
+    "type" : "git",
+    "url"  : "https://github.com/dmaciejewski1/sql-sniffer"
+  },
+  "license": "MIT",
+   "keywords": ["data", "database", "Db", "DB", "db", "layer", "node", "warehouse", "information","transaction", "injection", "business", "mine", "mining","SQL", "PLSQL", "PL/SQL", "select", "insert", "statements", "query", "queries", "querying", "clauses", "ETL", "add-on","API", "tool", "library", "module", "oracledb", "oracle","ora", "OCI", "10g", "11g","12c"],
+   "scripts": {
+     "test": "mocha"
+   }
+}
